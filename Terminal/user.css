@@ -1,0 +1,115 @@
+/* details metadata */
+.main-entityTitle-subtitle.main-entityTitle-gray,
+.main-entityHeader-metaDataText {
+    color: var(--spice-text) !important;
+}
+
+.main-duration-container {
+    color: var(--spice-subtext);
+}
+
+/* sidebar edits */
+.main-navBar-navBarLinkActive,
+.main-navBar-navBarLinkActive:focus,
+.logo {
+    background-color: var(--spice-sec-card) !important;
+    color: var(--spice-main) !important;
+}
+
+.main-likedSongsButton-likedSongsIcon,
+.main-createPlaylistButton-createPlaylistIcon,
+.main-yourEpisodesButton-yourEpisodesIcon {
+    background: var(--spice-text) !important;
+    border-radius: unset !important;
+    color: var(--spice-main) !important;
+}
+
+.main-collectionLinkButton-collectionLinkButton {
+    color: var(--spice-main) !important;
+}
+
+.main-collectionLinkButton-collectionLinkButton .main-collectionLinkButton-collectionLinkText,
+.main-createPlaylistButton-button,
+.main-rootlist-rootlistItemLink,
+.main-rootlist-rootlistItemLink:visited {
+    color: var(--spice-text) !important;
+}
+
+.main-rootlist-rootlistItemLinkActive,
+.main-rootlist-rootlistItemLink:hover,
+.main-rootlist-textWrapper:hover {
+    color: var(--spice-subtext) !important;
+}
+
+.main-collectionLinkButton-collectionLinkButton .main-collectionLinkButton-selected .main-collectionLinkButton-icon {
+    opacity: 0.7 !important;
+}
+
+/* inside a page edits */
+.main-addButton-button {
+    color: var(--spice-subtext) !important;
+}
+
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker,
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle {
+    color: var(--spice-subtext) !important;
+}
+
+.main-trackList-rowTitle {
+    color: var(--spice-text) !important;
+}
+
+/* home screen edits */
+
+.view-homeShortcutsGrid-name {
+    color: var(--spice-text);
+}
+
+.main-shelf-title {
+    color: var(--spice-subtext);
+}
+
+/* Remove Topbar background colour */
+.main-topBar-background {
+    background-color: unset !important;
+}
+
+.main-topBar-overlay,
+.x-441-actionBarBackground-background {
+    background-color: var(--spice-main) !important;
+}
+
+.main-entityHeader-shadow {
+    box-shadow: 0 0 4px 0 rgba(var(--spice-rgb-shadow), 0.5);
+}
+
+.main-trackList-playingIcon {
+    filter: hue-rotate(270deg);
+}
+
+span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
+    fill: black;
+}
+
+/* Topbar visibility bug */
+.main-topBar-topbarContent:not(.main-topBar-topbarContentFadeIn)>* {
+    opacity: unset !important;
+}
+
+.main-entityHeader-topbarContent:not(.main-entityHeader-topbarContentFadeIn)>* {
+    opacity: 0 !important;
+}
+
+/* header colored backgrounds */
+.main-home-homeHeader,
+.x-441-entityHeader-overlay,
+.main-actionBarBackground-background,
+.main-entityHeader-overlay,
+.main-entityHeader-backgroundColor,
+.x-914-entityHeader-overlay,
+.x-entityHeader-overlay,
+.x-914-actionBarBackground-background,
+.x-actionBarBackground-background {
+    background-color: unset !important;
+    background-image: unset !important;
+}
